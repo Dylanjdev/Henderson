@@ -147,13 +147,13 @@ function App() {
         </div>
       </section>
 
-      <section className="bg-washed-blue dark-blue pa4 pa5-ns">
+      <section className="bg-dark-blue white pa4 pa5-ns">
         <div className="mw9 center">
           <h2 className="f2 tc mt0 mb4">Our Process</h2>
           <div className="flex flex-wrap nl2 nr2">
             {processSteps.map((step) => (
               <div key={step.title} className="w-100 w-50-l pa2">
-                <div className="bg-white pa4 br2 h-100">
+                <div className="bg-white dark-blue pa4 br2 h-100 ba b--light-silver">
                   <h3 className="f4 mt0 mb2">{step.title}</h3>
                   <p className="lh-copy mv0">{step.description}</p>
                 </div>
